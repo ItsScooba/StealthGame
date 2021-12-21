@@ -1,0 +1,45 @@
+﻿Build started 8/5/2016 5:53:52 AM.
+     1>Project "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\StealthGame.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\StealthGame.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\Engine\include\freetype2" /I"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\Engine\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\\" /Fd"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Camera.cpp
+         Camera.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\StealthGame_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\Engine\lib" SDL2.lib SDL2main.lib SOILDebug.lib OpenGL32.lib glew32.lib freetype.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\StealthGame_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\StealthGame_d.lib" /MACHINE:X86 "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\tinyxml2.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Engine.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\EntityManager.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\EventDispatcher.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Font.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Game.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\GameObject.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\InputAction.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\InputAxis.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\InputManager.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\InputMap.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\KeyboardHandler.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\main.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Material.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Mesh.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\PlayerController.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Renderer.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\ResourceManager.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Shader.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Camera.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Sprite.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\SpriteSystem.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\TextBox.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\TextMaterial.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Texture.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\TransformComponent.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\Window.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\World.obj"
+         StealthGame.vcxproj -> C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\StealthGame_d.exe
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\StealthGame.tlog\unsuccessfulbuild".
+         Touching "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\StealthGameWin32Debug\StealthGame.tlog\StealthGame.lastbuildstate".
+     1>Done Building Project "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\StealthGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.30

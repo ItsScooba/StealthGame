@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ENGINE_FRAMEWORK">
+      <UniqueIdentifier>{61da6cac-0082-48ac-97bf-abfc56326541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files">
+      <UniqueIdentifier>{30967902-684f-4a1a-b01a-a99dc3d4956f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files">
+      <UniqueIdentifier>{4a627021-8475-4539-87aa-b4efb9be5441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source">
+      <UniqueIdentifier>{59722384-5b12-4126-8ba6-591e37398856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Source Files">
+      <UniqueIdentifier>{45f1b3a1-5732-4e30-9fa3-8c3d3e3631b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Header Files">
+      <UniqueIdentifier>{e1a9e9df-b17a-4604-a8be-64378eacca04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Input">
+      <UniqueIdentifier>{d51c6a17-84de-464c-b568-cc81e5a24e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Rendering">
+      <UniqueIdentifier>{5c8eba5f-3d49-4877-8d2a-266d7fd3ec49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Input">
+      <UniqueIdentifier>{097b8d08-fedf-461f-a6e9-6fefc8245efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Rendering">
+      <UniqueIdentifier>{81e7c52b-5867-4572-9f6a-b5e9d71144f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Input\Controllers">
+      <UniqueIdentifier>{69ff7019-25d5-43c9-bd99-e535aed270c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Core">
+      <UniqueIdentifier>{52fef46a-f806-4042-bffd-b1e1409ac445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Core">
+      <UniqueIdentifier>{d75567e0-a53b-4ef1-99c2-76282edb1288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Rendering\Material">
+      <UniqueIdentifier>{22821859-32f7-4b2f-93ac-f46e2b47bb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Input\Controllers">
+      <UniqueIdentifier>{eeb8bc39-eb5a-4999-81c8-25525dad1003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\User Interface">
+      <UniqueIdentifier>{1eceb28b-8af7-4a58-acec-b5d9c6d73122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\User Interface">
+      <UniqueIdentifier>{b697ff0b-9228-41a1-9134-e6dc632b69b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Events">
+      <UniqueIdentifier>{2517e7fc-1481-4d5d-87ca-ee82f8ffc0dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Components">
+      <UniqueIdentifier>{a8704780-42d2-4714-8108-d6320bb650ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Components">
+      <UniqueIdentifier>{fc436b13-c789-49d2-9b2f-0fa57d9e41b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Rendering\Materials">
+      <UniqueIdentifier>{e30936ca-747b-43d3-ac51-09130b88709b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Input\Raw Input Handlers">
+      <UniqueIdentifier>{07f31900-f2c2-44a3-8fe1-d379e0af3505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Input\Raw Input Handlers">
+      <UniqueIdentifier>{aa823301-54c7-4a9b-9c10-40726426f27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Utilities">
+      <UniqueIdentifier>{43832b99-015c-4868-a319-5697ab4ae90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Utilities">
+      <UniqueIdentifier>{85642b33-a822-4fc4-8183-d245b444a85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\SubSystems">
+      <UniqueIdentifier>{7eead764-8168-4976-91d7-8f3e98280fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\SubSystems">
+      <UniqueIdentifier>{9cfce927-87f0-45cf-9c55-f51818c9aee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Events">
+      <UniqueIdentifier>{26417ba8-93b0-4d15-a019-99469388e3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Physics">
+      <UniqueIdentifier>{ba5bf531-b7e9-4565-9846-bb71649f28c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Physics">
+      <UniqueIdentifier>{27dfcbce-4c00-4352-b305-2067fc88893f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Header Files\Components">
+      <UniqueIdentifier>{57be15a2-2910-40b4-a990-ab692d273696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Header Files\Game Systems">
+      <UniqueIdentifier>{1330310b-ef88-4ab3-bbf1-759fac15b4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Source Files\Game Systems">
+      <UniqueIdentifier>{d76a41d0-b021-4bce-bb02-d101d27c35db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Header Files\FireModes">
+      <UniqueIdentifier>{ce511170-be42-41d8-a64e-576feec7559d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Source Files\FireModes">
+      <UniqueIdentifier>{92ed4b1a-902e-4fb6-bdfd-a4f31529b6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Header Files\Factories">
+      <UniqueIdentifier>{c35ad4b9-9065-4cdb-917b-b7820c2a2d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENGINE_FRAMEWORK\Source Files\Factories">
+      <UniqueIdentifier>{f785e616-af93-4c17-a9c0-6831b4eda10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source\Header Files\Events">
+      <UniqueIdentifier>{f7982f5c-8e7a-48a9-8b8f-a290d3c1393a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Engine\src\Camera.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Font.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Sprite.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Shader.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Renderer.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Mesh.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Texture.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\InputAction.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\InputAxis.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\InputManager.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DefaultGameScene.cpp">
+      <Filter>Game Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Engine.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\EntityManager.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\main.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Window.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\ResourceManager.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\include\tinyxml2.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\InputContext.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\PlayerController.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\UserInterface.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\GUI_Widget.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Cursor.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\User Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Material.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CubeMesh.cpp">
+      <Filter>Game Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\KeyboardHandler.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input\Raw Input Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\MouseHandler.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input\Raw Input Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Animation.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Timer.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\AnimationSystem.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\SubSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\AnimationComponent.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\RenderSystem.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\SubSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\PhysicsSystem.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\SubSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\SpriteAtlas.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\MaterialParameters.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\DefaultSpriteMaterial.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\AI_Controller.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\Controller.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Input\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\GameObject.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\GameScene.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\World.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\EventDispatcher.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\AnimationPose.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\SkeletalData.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FireMode.cpp">
+      <Filter>Game Source\Source Files\FireModes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\ActorFactory.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\PhysicsContactListener.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\PhysicsDebugDraw.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WeaponsSystem.cpp">
+      <Filter>Game Source\Source Files\Game Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\FixtureUserData.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SingleShotFireMode.cpp">
+      <Filter>Game Source\Source Files\FireModes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\RayCastResults.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Engine\src\AI_System.cpp">
+      <Filter>ENGINE_FRAMEWORK\Source Files\SubSystems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Engine\src\Camera.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\InputAction.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\InputAxis.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\InputManager.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Mesh.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Font.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Texture.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Sprite.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Shader.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Renderer.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DefaultGameScene.h">
+      <Filter>Game Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\PlayerController.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Engine.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\EntityManager.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\ResourceManager.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Window.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\include\tinyxml2.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Material.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\InputContext.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\UserInterface.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\GUI_Widget.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\EventDispatcher.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\EventEntityDestroyed.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\EventEntitySpawned.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\I_Event.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\PostRenderEvent.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Cursor.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\User Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Component.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\RenderComponent.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CubeMesh.h">
+      <Filter>Game Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\RawInputHandler.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input\Raw Input Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\KeyboardHandler.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input\Raw Input Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\MouseHandler.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input\Raw Input Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Animation.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Timer.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\AnimationComponent.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\I_System.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\SubSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\PhysicsSystem.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\SubSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\RenderSystem.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\SubSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\AnimationSystem.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\SubSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\SpriteAtlas.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\MaterialParameters.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\DefaultSpriteMaterial.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\AI_Controller.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\Controller.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Input\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\GameObject.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\World.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\GameScene.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\PhysicsComponent.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\AnimationPose.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\SkeletalData.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaponComponent.h">
+      <Filter>Game Source\Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FireMode.h">
+      <Filter>Game Source\Header Files\FireModes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\ActorFactory.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\PhysicsContactListener.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\PhysicsDebugDraw.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WeaponsSystem.h">
+      <Filter>Game Source\Header Files\Game Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\FixtureUserData.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SingleShotFireMode.h">
+      <Filter>Game Source\Header Files\FireModes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EventDamage.h">
+      <Filter>Game Source\Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\RayCastResults.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HealthComponent.h">
+      <Filter>Game Source\Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Engine\src\AI_System.h">
+      <Filter>ENGINE_FRAMEWORK\Header Files\SubSystems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

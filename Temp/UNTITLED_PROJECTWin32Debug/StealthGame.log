@@ -1,0 +1,90 @@
+﻿Build started 8/18/2016 11:56:56 PM.
+     1>Project "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\StealthGame.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\UNTITLED_PROJECT.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\Engine\include\freetype2" /I"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\Engine\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\\" /Fd"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Engine\include\tinyxml2.cpp ..\..\Engine\src\Camera.cpp ..\..\Engine\src\Engine.cpp ..\..\Engine\src\EntityManager.cpp ..\..\Engine\src\EventDispatcher.cpp ..\..\Engine\src\Font.cpp ..\..\Engine\src\GameObject.cpp ..\..\Engine\src\GameScene.cpp ..\..\Engine\src\InputAction.cpp ..\..\Engine\src\InputAxis.cpp ..\..\Engine\src\InputManager.cpp ..\..\Engine\src\InputMap.cpp ..\..\Engine\src\KeyboardHandler.cpp ..\..\Engine\src\main.cpp ..\..\Engine\src\Material.cpp ..\..\Engine\src\Mesh.cpp ..\..\Engine\src\PlayerController.cpp ..\..\Engine\src\Renderer.cpp ..\..\Engine\src\ResourceManager.cpp ..\..\Engine\src\Shader.cpp ..\..\Engine\src\Sprite.cpp ..\..\Engine\src\SpriteSystem.cpp ..\..\Engine\src\TextBox.cpp ..\..\Engine\src\TextMaterial.cpp ..\..\Engine\src\Texture.cpp ..\..\Engine\src\TransformComponent.cpp ..\..\Engine\src\Window.cpp ..\..\Engine\src\World.cpp
+         World.cpp
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\world.cpp(79): warning C4244: 'initializing': conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\world.cpp(79): warning C4244: 'initializing': conversion from 'const int' to 'const float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\world.cpp(87): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\world.cpp(88): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+         Window.cpp
+         TransformComponent.cpp
+         Texture.cpp
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\texture.cpp(141): warning C4018: '>=': signed/unsigned mismatch
+         TextMaterial.cpp
+         TextBox.cpp
+         SpriteSystem.cpp
+         Sprite.cpp
+         Shader.cpp
+         ResourceManager.cpp
+         Renderer.cpp
+         PlayerController.cpp
+         Mesh.cpp
+         Material.cpp
+         main.cpp
+         KeyboardHandler.cpp
+         InputMap.cpp
+         InputManager.cpp
+         InputAxis.cpp
+         InputAction.cpp
+         Generating Code...
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\material.cpp(48): warning C4172: returning address of local variable or temporary
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\texture.cpp(143): warning C4172: returning address of local variable or temporary: emptyVector
+         Compiling...
+         GameScene.cpp
+         GameObject.cpp
+         Font.cpp
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(69): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(75): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(97): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(98): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(99): warning C4244: '=': conversion from 'FT_Int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(100): warning C4244: '=': conversion from 'FT_Int' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(101): warning C4244: '=': conversion from 'FT_Pos' to 'float', possible loss of data
+     1>c:\users\stephen\documents\visual studio 2015\projects\stealthgame\engine\src\font.cpp(108): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+         EventDispatcher.cpp
+         EntityManager.cpp
+         Engine.cpp
+         Camera.cpp
+         tinyxml2.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\UNTITLED_PROJECT_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\Engine\lib" SDL2.lib SDL2main.lib SOILDebug.lib OpenGL32.lib glew32.lib freetype.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\UNTITLED_PROJECT_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\UNTITLED_PROJECT_d.lib" /MACHINE:X86 "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\tinyxml2.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Camera.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Engine.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\EntityManager.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\EventDispatcher.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Font.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\GameObject.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\GameScene.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\InputAction.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\InputAxis.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\InputManager.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\InputMap.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\KeyboardHandler.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\main.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Material.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Mesh.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\PlayerController.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Renderer.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\ResourceManager.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Shader.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Sprite.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\SpriteSystem.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\TextBox.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\TextMaterial.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Texture.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\TransformComponent.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\Window.obj"
+         "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\World.obj"
+         StealthGame.vcxproj -> C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Game\UNTITLED_PROJECT_d.exe
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\UNTITLED_PROJECT.tlog\unsuccessfulbuild".
+         Touching "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\..\..\Temp\UNTITLED_PROJECTWin32Debug\UNTITLED_PROJECT.tlog\UNTITLED_PROJECT.lastbuildstate".
+     1>Done Building Project "C:\Users\Stephen\Documents\Visual Studio 2015\Projects\StealthGame\src\MSCV\StealthGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:27.49

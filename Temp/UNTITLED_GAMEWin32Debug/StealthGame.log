@@ -1,0 +1,107 @@
+﻿  tinyxml2.cpp
+  ActorFactory.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  AI_Controller.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  AI_System.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Animation.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\SkeletalData.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  AnimationComponent.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  AnimationPose.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\AnimationPose.h(10): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  AnimationSystem.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Camera.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Camera.h(6): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Controller.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Cursor.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GUI_Widget.h(7): fatal error C1083: Cannot open include file: 'glm\gtc\matrix_transform.hpp': No such file or directory
+  DefaultSpriteMaterial.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Material.h(6): fatal error C1083: Cannot open include file: 'glm\gtc\matrix_transform.hpp': No such file or directory
+  Engine.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\World.h(8): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  EntityManager.cpp
+  EventDispatcher.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\EventDispatcher.h(7): fatal error C1083: Cannot open include file: 'FastDelegate\FastDelegate.h': No such file or directory
+  FixtureUserData.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\FixtureUserData.h(7): fatal error C1083: Cannot open include file: 'FastDelegate\FastDelegate.h': No such file or directory
+  Font.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Font.h(8): fatal error C1083: Cannot open include file: 'gl\glew.h': No such file or directory
+  GameObject.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  GameScene.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\World.h(8): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  GUI_Widget.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GUI_Widget.h(7): fatal error C1083: Cannot open include file: 'glm\gtc\matrix_transform.hpp': No such file or directory
+  Generating Code...
+  Compiling...
+  InputAction.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\InputAction.h(8): fatal error C1083: Cannot open include file: 'FastDelegate\FastDelegate.h': No such file or directory
+  InputAxis.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\InputAxis.h(8): fatal error C1083: Cannot open include file: 'FastDelegate\FastDelegate.h': No such file or directory
+  InputContext.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\InputAction.h(8): fatal error C1083: Cannot open include file: 'FastDelegate\FastDelegate.h': No such file or directory
+  InputManager.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\InputManager.h(3): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  KeyboardHandler.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\RawInputHandler.h(5): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  main.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Window.h(5): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  Material.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Material.h(6): fatal error C1083: Cannot open include file: 'glm\gtc\matrix_transform.hpp': No such file or directory
+  MaterialParameters.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\MaterialParameters.h(7): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Mesh.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Mesh.h(6): fatal error C1083: Cannot open include file: 'gl\glew.h': No such file or directory
+  MouseHandler.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\RawInputHandler.h(5): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  PhysicsContactListener.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\PhysicsContactListener.h(5): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  PhysicsDebugDraw.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\PhysicsDebugDraw.h(12): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  RayCastResults.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\RayCastResults.h(10): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  SkeletalData.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\SkeletalData.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  PhysicsSystem.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\PhysicsSystem.h(8): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  PlayerController.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Renderer.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Renderer.h(7): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  RenderSystem.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GameObject.h(9): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  ResourceManager.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Shader.h(4): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  Shader.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Shader.h(4): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  Generating Code...
+  Compiling...
+  Sprite.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Mesh.h(6): fatal error C1083: Cannot open include file: 'gl\glew.h': No such file or directory
+  SpriteAtlas.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Texture.h(7): fatal error C1083: Cannot open include file: 'gl\glew.h': No such file or directory
+  Texture.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Texture.h(7): fatal error C1083: Cannot open include file: 'gl\glew.h': No such file or directory
+  Timer.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Timer.cpp(5): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  UserInterface.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\GUI_Widget.h(7): fatal error C1083: Cannot open include file: 'glm\gtc\matrix_transform.hpp': No such file or directory
+  Window.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\Window.h(5): fatal error C1083: Cannot open include file: 'SDL2\SDL.h': No such file or directory
+  World.cpp
+C:\Users\mrfra\Desktop\StealthGame\Engine\src\World.h(8): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+  CubeMesh.cpp
+C:\Users\mrfra\Desktop\StealthGame\src\CubeMesh.h(10): fatal error C1083: Cannot open include file: 'Mesh.h': No such file or directory
+  DefaultGameScene.cpp
+C:\Users\mrfra\Desktop\StealthGame\src\DefaultGameScene.h(5): fatal error C1083: Cannot open include file: 'GameScene.h': No such file or directory
+  FireMode.cpp
+C:\Users\mrfra\Desktop\StealthGame\src\FireMode.h(7): fatal error C1083: Cannot open include file: 'GameObject.h': No such file or directory
+  SingleShotFireMode.cpp
+C:\Users\mrfra\Desktop\StealthGame\src\FireMode.h(7): fatal error C1083: Cannot open include file: 'GameObject.h': No such file or directory
+  WeaponsSystem.cpp
+C:\Users\mrfra\Desktop\StealthGame\src\WeaponsSystem.h(10): fatal error C1083: Cannot open include file: 'I_System.h': No such file or directory
+  Generating Code...
